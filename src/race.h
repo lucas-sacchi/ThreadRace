@@ -1,6 +1,8 @@
 #ifndef RACE_H
 #define RACE_H
 
+#include <pthread.h>  // Adicionar para reconhecer pthread_t e pthread_mutex_t
+
 #define NUM_THREADS 5
 #define PASSOS_OBJETIVO 100
 
